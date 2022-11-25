@@ -7,7 +7,6 @@ use actix_web::{
 use chrono::Utc;
 use serde::Deserialize;
 use sqlx::PgPool;
-use tracing::Instrument;
 use uuid::Uuid;
 
 #[derive(Debug, Deserialize)]
